@@ -3,5 +3,33 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    >
+    android:background="@android:color/black">
+    <TextView
+        android:text="Enter Your Name:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvEnterName"
+        android:textColor="@android:color/holo_blue_light"
+        android:textSize="20dip" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etEnterName"
+        android:textColor="@android:color/holo_green_light"
+        android:textSize="30dip"
+        android:hint="Name" />
+    <Button
+        android:text="Start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnNext"
+        android:background="@android:color/holo_orange_dark" />
+    
+    <ImageView
+        android:src="@android:drawable/ic_menu_gallery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView1"
+        android:background="@drawable/rps"
+        android:scaleType="fitCenter" />
 </LinearLayout>
